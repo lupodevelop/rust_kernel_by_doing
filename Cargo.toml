@@ -1,0 +1,13 @@
+[package]
+name = "os_base"
+version = "0.1.0"
+authors = ["Daniele <lupo.develop@gmail.com>"]
+edition = "2018"
+
+[dependencies]
+
+[profile.dev]
+panic = "abort"
+
+[profile.relase]
+panic = "abort"
