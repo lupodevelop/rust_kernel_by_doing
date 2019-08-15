@@ -1,0 +1,4 @@
+# in .cargo/config
+
+[build]
+target = "x86_64-custom.json"
